@@ -36,3 +36,5 @@ img {
 button {
   font: inherit;
 }
+
+a {display:block;} 
