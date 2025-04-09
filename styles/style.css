@@ -142,7 +142,6 @@ header {
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: flex-end;
-  width: 367px;
   width: auto;
   height: 600px;
   margin-right: 20px;
@@ -207,7 +206,6 @@ header {
   left: 47px;
   display: grid;
   place-items: center;
-  width: 240px;
   width: 240px;
   height: 240px;
   margin: auto;
