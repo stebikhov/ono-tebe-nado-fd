@@ -12,17 +12,17 @@
 
   <body>
     <header class="header">
-      <nav class="header__menu">
+       <nav class="header__menu">
         <ul class="header__links-list">
           <li class="header__links-list-item header__links-list-item_no-bullit">
             <a>главная</a>
           </li>
-          <li class="header_links_item"><a href="#a">посмотреть лоты</a></li>
-          <li class="header_links_item"><a href="#a">об аукционе</a></li>
+          <li class="header__links-list-item"><a href="#a">посмотреть лоты</a></li>
+          <li class="header__links-list-item"><a href="#a">об аукционе</a></li>
         </ul>
       </nav>
       <div class="header__logo">
-        <a
+        <a href="#"
           ><img class="header__logo-image" src="./images/logo-black.svg" alt=""
         /></a>
       </div>
@@ -31,23 +31,20 @@
         <p>
           <a href="mailto:mail@example.com">info@sobaka.ge</a>
         </p>
-        <p>наб. Принсенграхт 263-265.Амстердам</p>
-      </address>
+        <p>наб. Принсенграхт 263-265. Амстердам</p>
+      </address> 
     </header>
 
     <main class="main">
       <section class="cover">
-        <div class="cover__title">
-          <div class="cover__title_1">OHO</div>
-          <div class="cover__title_2">ТЕБЕ</div>
-          <div class="cover__title_3">НАДО</div>
-          <div class="cover__title_4">
-            <div class="cover__title_4_1">
-              АУКЦИОН ВЕЩЕЙ В КОТОРЫЕ НИКТО НЕ ВЕРИЛ
-            </div>
-            <button class="bet__button">сделать ставку</button>
-          </div>
-        </div>
+        <div class="cover__title overlay"></div>
+        <h1 class="cover__title overlay">
+          <span class="cover__title_1">OHO</span>
+          <span class="cover__title_2">ТЕБЕ</span>
+          <span class="cover__title_3">НАДО</span>
+        </h1>
+        <h2 class="cover__title_sub">АУКЦИОН ВЕЩЕЙ В КОТОРЫЕ НИКТО НЕ ВЕРИЛ</h2>
+        <button class="bet__button">сделать ставку</button>
       </section>
 
       <section class="lots">
@@ -57,7 +54,7 @@
         <div>
           <ul class="lots-list">
             <li
-              class="lots-list-img"
+              class="lots-list-img lots-list-img-1"
               style="background-image: url('./images/card-lot-01.jpg')"
             >
               <div class="lots-list-title">
@@ -74,7 +71,7 @@
               </div>
             </li>
             <li
-              class="lots-list-img"
+              class="lots-list-img lots-list-img-2"
               style="background-image: url('./images/card-lot-02.jpg')"
             >
               <div class="lots-list-title">
@@ -93,10 +90,7 @@
                 </article>
               </div>
             </li>
-            <li
-              class="lots-list-img"
-              style="background-image: url('./images/card-lot-03.jpg')"
-            >
+            <li class="lots-list-img lots-list-img-3">
               <div class="lots-list-title">
                 <a href="#">
                   <h3>
