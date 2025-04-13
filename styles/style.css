@@ -55,9 +55,11 @@ header {
   top: 93px;
   left: 483.7px;
   position: absolute;
+/*1 134px*/
+  width: 134px;
+  /*1 127px*/
 
-  width: 136px;
-  height: 127px;
+  height: 125px;
 }
 
 .header_address {
@@ -99,7 +101,8 @@ header {
    color: white;
   font-family: Raleway;
   font-weight: 800;
-  font-size: 100px;
+  /*1 100*/
+  font-size: 101px;
   line-height: 115%;
   letter-spacing: 30px;
   text-transform: uppercase;
