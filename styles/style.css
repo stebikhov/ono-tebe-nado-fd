@@ -24,7 +24,7 @@ header {
   font-family: Raleway;
   font-weight: 400;
   font-size: 18px;
-  line-height: 100%; 
+  line-height: 100%;
   letter-spacing: 0%;
   text-underline-position:under;
   padding-left: 50px;
@@ -39,10 +39,9 @@ header {
   left: 483.7px;
   position: absolute;
 /*1 135px*/
-  width: 140px;
+  width: 145px;
   /*1 127px*/
-
-  height: 125px;
+  height: 135px;
 }
 
 .header_address {
@@ -52,7 +51,7 @@ header {
   width: 230px;
   height: 99px;
   left: 812px;
-  line-height: 24px; 
+  line-height: 24px;
   text-underline-position:under;
   font-style: normal;
   padding-left: 200;
@@ -84,7 +83,7 @@ header {
   font-family: Raleway;
   font-weight: 800;
   /*1 100*/
-  font-size:102px;
+  font-size:99px;
   line-height: 115%;
   letter-spacing: 30px;
   text-transform: uppercase;
@@ -97,19 +96,19 @@ header {
 }
 
 .cover__title_2 {
-  position: absolute; 
+  position: absolute;
   top: 301px;
   left: 381px;
 }
 
 .cover__title_3 {
-  position: absolute; 
+  position: absolute;
   top: 436px;
   left: 665px;
 }
 
 .cover__title_sub {
-  position: absolute; 
+  position: absolute;
   color: white;
   top: 670px;
   left: 50px;
@@ -124,10 +123,10 @@ header {
 }
 
 .bet__button {
-  position: absolute; 
+  position: absolute;
   color: white;
   top: 657px;
-  left: 794px; 
+  left: 794px;
   height: 51px;
   width: 256px;
   background-color: rgba(255, 255, 255, 0);
@@ -200,7 +199,7 @@ header {
 }
 
 .lots-more {
-  position: absolute; 
+  position: absolute;
   top: 693px;
   left: 40px;
   text-decoration: underline;
