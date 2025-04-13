@@ -56,10 +56,10 @@ header {
   left: 483.7px;
   position: absolute;
 /*1 134px*/
-  width: 134px;
+  width: 132px;
   /*1 127px*/
 
-  height: 125px;
+  height: 124px;
 }
 
 .header_address {
@@ -102,7 +102,7 @@ header {
   font-family: Raleway;
   font-weight: 800;
   /*1 100*/
-  font-size: 101px;
+  font-size:99px;
   line-height: 115%;
   letter-spacing: 30px;
   text-transform: uppercase;
