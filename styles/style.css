@@ -9,20 +9,13 @@ header {
   list-style: circle;
   width: 1100px;
   height: 293px;
+  position: relative;
+
 }
-
- .header__links-list {
-  display: flex;
-  justify-content: space-between;
-  width: 391.4786376953125;
-  height: 22.00001335144043;
-   margin-left: 50px; 
-
-} 
 
 
 .header__links-list {
-  top: 129px;
+  top: 135px;
   left: 50px;
   display: flex;
   justify-content: space-between;
@@ -31,6 +24,7 @@ header {
   height: 22px;
   opacity: 0px;
   list-style: circle;
+  margin-left: 50px; 
 
   font-family: Raleway;
   font-weight: 400;
@@ -39,8 +33,7 @@ header {
   letter-spacing: 0%;
 
   text-underline-position:under;
-  place-items: center;
-  align-items: center;
+
 
 }
 
@@ -59,21 +52,21 @@ header {
 }
 
 .header__logo {
-  top: 92px;
-  left: 190px;
-  gap: 0px;
-  /* width: 137px;
-  height: 105px; */
-  opacity: 0px;
+  top: 93px;
+  left: 483.7px;
+  position: absolute;
+
+  width: 136px;
+  height: 127px;
 }
 
 .header_address {
-  position: relative;
+  position: absolute;
   font-size: 18px;
   text-align: left;
   width: 230px;
   height: 99px;
-  left: 194px;
+  left: 812px;
   line-height: 24px; 
   text-underline-position:under;
   font-style: normal;
@@ -88,7 +81,7 @@ header {
   background-position: center;
   background-size: cover;
   position: relative;
-  background-position-x: -140px;
+  background-position-x: -138px;
 
 }
 
@@ -115,13 +108,13 @@ header {
 .cover__title_1 {
 position: absolute;
 
-top: 167px;
+top: 166px;
 left: 50px;
 }
 
 .cover__title_2 {
    position: absolute; 
-   top: 302px;
+   top: 301px;
    left: 381px;
 }
 
