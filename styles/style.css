@@ -10,43 +10,26 @@ header {
   width: 1100px;
   height: 293px;
   position: relative;
-
 }
 
 
 .header__links-list {
-  top: 135px;
-  left: 50px;
   display: flex;
   justify-content: space-between;
   gap: 15px;
-  width: 391.48px;
+  width: 439px;;
   height: 22px;
-  opacity: 0px;
   list-style: circle;
-  margin-left: 50px; 
-
+  gap:10px;
   font-family: Raleway;
   font-weight: 400;
   font-size: 18px;
   line-height: 100%; 
   letter-spacing: 0%;
-
   text-underline-position:under;
-
-
+  padding-left: 50px;
 }
 
-/* 
-.header__links-list-item {
-  padding-left: 4px;
-  padding-top: 2px;
-  /* text-align: left;
-  text-decoration-skip-ink: none;
-  text-underline-position: from-font; 
-
-}
-*/
 .header__links-list-item_no-bullit {
   list-style: none;
 }
@@ -189,7 +172,8 @@ left: 50px;
   line-height: 28px;
   letter-spacing:-1px;
 }
-.lots-list li{
+
+.lots-list li {
    display: inline-block;
 }
 
@@ -224,9 +208,9 @@ left: 50px;
   text-decoration: underline;
   font-weight:100;
   font-family: Raleway;
-font-weight: 400;
-font-size: 20px;
-line-height: 100%;
-letter-spacing: 0%;
-text-underline-position:under;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-underline-position:under;
 }
