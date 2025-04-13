@@ -36,12 +36,12 @@ header {
 
 .header__logo {
   top: 92px;
-  left: 481px;
+  left: 480px;
   position: absolute;
 /*1 135px*/
   width: 140px;
   /*1 127px*/
-  height: 135px;
+  height: 130px;
 }
 
 .header_address {
