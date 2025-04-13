@@ -35,11 +35,11 @@ header {
 }
 
 .header__logo {
-  top: 93px;
-  left: 483.7px;
+  top: 92px;
+  left: 481px;
   position: absolute;
 /*1 135px*/
-  width: 145px;
+  width: 140px;
   /*1 127px*/
   height: 135px;
 }
@@ -118,14 +118,17 @@ header {
   line-height: 28px;
   letter-spacing: 0%;
   text-transform: uppercase;
-  word-spacing: 20px;
+  /* word-spacing: 20px; */
+
+  word-spacing: 22px;
   z-index: 2;
 }
 
 .bet__button {
   position: absolute;
   color: white;
-  top: 657px;
+  /* top: 657px; */
+  top: 656px;
   left: 794px;
   height: 51px;
   width: 256px;
