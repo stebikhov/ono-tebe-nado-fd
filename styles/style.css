@@ -219,10 +219,8 @@ header {
   align-items: flex-end;
   width: auto;
   height: 596px;
-  padding: 40px 3px 50px 37px;
   text-align: center;
-  background-size: cover;
-  background-position-x: -120px;
+
 }
 
 .lots-list-title {
@@ -233,20 +231,23 @@ header {
   text-align: start;
   text-decoration: underline;
   text-transform: uppercase;
-  
-  padding-top: 10px;
+  background-color: green;
+  padding-top: 48px;
+  padding-left: 40px;
+  padding-right: 35px;
+
 }
 
 .lots-list-text {
-  display: inline-flex;
-  justify-self: end;
-  align-items: flex-end;
-  align-self: flex-end;
+  display: block;
   height: auto;
-  margin-right: 27px;
   color: white;
   font-size: 20px;
   text-align: start;
+  align-self: center;
+  width: 260px;
+  background-color: brown;
+  padding-bottom: 45px;
 }
 
 .lots-more {
