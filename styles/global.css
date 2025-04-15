@@ -4,12 +4,6 @@
   box-sizing: border-box;
 }
 
-body {
-  width: 1100px;
-  margin: 0 auto;
-  font-family: Raleway, sans-serif;
-}
-
 h1,
 h2,
 h3,
@@ -37,4 +31,3 @@ img {
 button {
   font: inherit;
 }
- 
