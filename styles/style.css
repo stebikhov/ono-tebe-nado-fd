@@ -130,6 +130,7 @@
   text-transform: uppercase;
   background: transparent;
 }
+
 .lots__title {
   padding-top: 180px;
   padding-bottom: 26px;
@@ -143,16 +144,16 @@
 .lots__cards-list {
   display: flex;
   flex-wrap: wrap;
-  justify-content: flex-start;
+  justify-content: space-between;
   gap: 25px;
   margin-right: 23px;
   margin-left: 23px;
   font-size: 0;
   list-style-type: none;
-}
+  }
 
 .lots__card-list-item {
-  max-width: 333px;
+  max-width: 334px;
   min-height: 596px;
   /* background-size: cover;
   background-repeat: no-repeat;
