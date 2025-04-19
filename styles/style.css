@@ -180,15 +180,15 @@
   text-decoration: none;
 }
 
-.lots__cards-list li:nth-child(1) {
+.card_type_film {
   background-image: url(../images/card-lot-01.jpg);
 }
 
-.lots__cards-list li:nth-child(2) {
+.card_type_book {
   background-image: url(../images/card-lot-02.jpg);
 }
 
-.lots__cards-list li:nth-child(3) {
+.card_type_picture {
   background-image: url(../images/card-lot-03.jpg);
 }
 
@@ -292,7 +292,7 @@
   grid-template-rows: auto;
   justify-content: space-between;
   margin-top:180px;
-  margin-bottom: 200px;
+  margin-bottom: 100px;
 }
 
 .footer_address {
