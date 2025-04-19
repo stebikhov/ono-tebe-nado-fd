@@ -92,13 +92,13 @@
   text-transform: uppercase;
 }
 
-.cover__title span:nth-child(1) {
+.aligned-text_left {
   text-align: left;
 }
-.cover__title span:nth-child(2) {
+.aligned-text_center {
   text-align: center;
 }
-.cover__title span:nth-child(3) {
+.aligned-text_right {
   text-align: right;
 }
 
@@ -181,15 +181,15 @@
 }
 
 .lots__cards-list li:nth-child(1) {
-  background-image: url(./../images/card-lot-01.jpg);
+  background-image: url(../images/card-lot-01.jpg);
 }
 
 .lots__cards-list li:nth-child(2) {
-  background-image: url(./../images/card-lot-02.jpg);
+  background-image: url(../images/card-lot-02.jpg);
 }
 
 .lots__cards-list li:nth-child(3) {
-  background-image: url(./../images/card-lot-03.jpg);
+  background-image: url(../images/card-lot-03.jpg);
 }
 
 .lots__card_title {
@@ -292,6 +292,7 @@
   grid-template-rows: auto;
   justify-content: space-between;
   margin-top:180px;
+  margin-bottom: 200px;
 }
 
 .footer_address {
